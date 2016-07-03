@@ -11,11 +11,15 @@
     "zone.js": "^0.6.12"
   },
   "devDependencies": {
+    "browserify": "^13.0.1",
     "mocha": "^2.5.3",
+    "uglify": "^0.1.5",
+    "uglify-js": "^2.6.4",
     "zone.js": "^0.6.12"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "dist": "cp lib/index.js dist/chrome-zones.js && node ./node_modules/uglify-js/bin/uglifyjs --compress --mangle -- dist/chrome-zones.js > dist/chrome-zones.min.js && node ./node_modules/uglify-js/bin/uglifyjs --compress --mangle -- dist/chrome-zones.js > example/chrome-zones.min.js "
   },
   "repository": {
     "type": "git",
