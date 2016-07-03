@@ -1,5 +1,7 @@
 # chrome-zones
 
+[![Build Status](https://travis-ci.org/bengreenier/chrome-zones.svg?branch=master)](https://travis-ci.org/bengreenier/chrome-zones)
+
 wraps chrome extension apis so that if they are executing in a zone, their callbacks do too
 
 # Why?
