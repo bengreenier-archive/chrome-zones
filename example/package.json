@@ -1,0 +1,14 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "a simple example chrome extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Greenier",
+  "license": "MIT",
+  "dependencies": {
+    "zone.js": "^0.6.12"
+  }
+}
