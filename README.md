@@ -21,6 +21,8 @@ in your page.
 
 ### Example
 
+> An example of an angular2 powered chrome extension can be found @ [bengreenier/angular2-chrome-zones-quickstart](https://github.com/bengreenier/angular2-chrome-zones-quickstart)
+
 See [example](./example) for a complete working example.
 
 ## Does it work?
