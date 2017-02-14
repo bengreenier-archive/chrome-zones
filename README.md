@@ -25,6 +25,16 @@ in your page.
 
 See [example](./example) for a complete working example.
 
+## Angular CLI
+
+Just add it to the scripts array in your `angular-cli.json`
+
+```!JSON
+"scripts": [
+    "../node_modules/chrome-zones/dist/chrome-zones.min.js"
+]
+```
+
 ## Does it work?
 
 Using monkeypatching and `zone.wrap`. Basically when the script loads
